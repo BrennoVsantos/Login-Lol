@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" href="assets/img/riot-icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <Main>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="assets/img/Riot_Games-Logo.png" alt="">
+            </div>
+            <div class="h1">
+                <h1>Iniciar Sessão</h1>
+            </div>
+            <div class="inputs">
+                <label for="user">
+                    <input type="text" id="user" name="user" placeholder="NOME DE USUÁRIO" required>
+                </label>
+
+                <label for="passwd">
+                    <input type="password" name="passwd" id="passwd" placeholder="SENHA" required>
+                </label>
+
+                <div class="btns-social">
+                    <button id="fb"><i class="fa-brands fa-facebook"></i></button>
+                    <button id="google"><img src="assets/img/google-icon.png" alt=""></button>
+                    <button id="apple"><i class="fa-brands fa-apple"></i></button>
+                    <button id="xbox"><i class="fa-brands fa-xbox"></i> </button>
+                </div>
+                
+                <div class="checkbox">
+                    <label for="check">
+                        <input type="checkbox" name="check" id="check"> 
+                    </label> 
+                    <h3>Manter login</h3>
+                </div>
+
+                <div class="confirm">
+                    <button id="confirm"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="links">
+                <h2><a href="#">NÃO CONSEGUE INICIAR SESSÃO?</a></h2>
+                <h2><a href="#">CRIAR CONTA</a></h2>
+            </div>
+        </div>
+    </Main>
+
+
+
+    <div class="wallpaper"></div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
